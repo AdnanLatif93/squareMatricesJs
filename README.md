@@ -1,2 +1,3 @@
 # squareMatricesJs
-# Javascript Program Transformation of Square Matrices.
+# Javascript Program Transformation Of Square Matrices.
+# Transform Square Matrices Example In Javascript.
