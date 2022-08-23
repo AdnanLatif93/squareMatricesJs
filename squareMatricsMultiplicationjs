@@ -1,0 +1,21 @@
+let mat1 = [
+    [1, 1],
+    [2, 2],
+];
+let mat2 = [
+    [1, 1],
+    [2, 2],
+];
+let mat3 = [
+    [],
+    []
+]
+for(var i = 0; i < mat1.length; i++){
+    for(var j=0; j < mat1.length; j++){
+        mat3[i][j] = 0;
+        for(var k=0; k < mat1.length; k++){    
+         mat3[i][j] += mat1[i][k] * mat2[k][j];
+        }
+    }
+}
+console.table(mat3)
